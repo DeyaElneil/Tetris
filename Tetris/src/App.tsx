@@ -8,7 +8,7 @@ type Game = { board: Board; piece: Piece; score: number; over: boolean };
 type Action = "left" | "right" | "down" | "rotate" | "drop";
 
 const SHAPES = [
-  { shape: [[1, 1, 1, 1]], color: "cyan" },
+  { shape: [[1, 1, 1, 1]], color: "white" },
   { shape: [[1, 1], [1, 1]], color: "yellow" },
   { shape: [[0, 1, 0], [1, 1, 1]], color: "purple" },
   { shape: [[1, 0, 0], [1, 1, 1]], color: "blue" },
